@@ -1,0 +1,59 @@
+.image-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 400px;
+}
+
+.carousel-selection {
+  position: relative;
+  top: 60px;
+}
+
+.carousel-selection p {
+  text-align: center;
+}
+
+.carousel-selection button {
+  margin: 0 10px;
+  background-color: rgb(231, 231, 241);
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  color: rgb(38, 49, 78);
+}
+
+.carousel-selection button:hover {
+  background-color: rgb(197, 197, 212);
+}
+
+.image-carousel img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.carousel-selection-indicator {
+  position: relative;
+  bottom: 40px;
+  display: inline-block;
+  background-color: rgb(231, 231, 241);
+  color: transparent;
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  margin: 0 8px;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-selection-indicator:focus {
+  outline: none;
+  border-color: rgb(38, 49, 78);
+}
+
+.carousel-selected {
+  background-color: rgb(126, 126, 155) !important;
+}
