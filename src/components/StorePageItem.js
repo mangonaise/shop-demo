@@ -6,7 +6,12 @@ const StorePageItem = ({ itemData }) => {
   const [imageIndex, setImageIndex] = useState(0)
 
   return (
-    <Link to={`/products/${itemData.itemId}`} className="store-page-item">
+    <Link 
+      to={`/products/${itemData.itemId}`} 
+      className="store-page-item" 
+      onFocus={() => setImageIndex(1)}
+      onBlur={() => setImageIndex(0)}
+    >
       <div className="item-title">
         {itemData.name}
       </div>
