@@ -1,0 +1,31 @@
+#store-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#store-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  #store-page-grid {
+    max-width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #store-page-grid {
+    max-width: 50vw;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  #store-page-grid {
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    max-width: 100vw;
+  }
+}
