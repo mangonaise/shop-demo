@@ -1,6 +1,7 @@
 [
   {
     "name": "Smokey Bear",
+    "page": "smokey-bear",
     "price": 12.0,
     "description": "Official Smokey Bear playing cards. Produced in association with the USDA Forest Service, the cards feature Smokey and twelve of his closest woodland friends, along with fire-prevention tips illustrated throughout the deck by Sam Larson. \n\nPackaged in a nostalgic letterpress-printed tuck box. Sustainably-produced using FSC certified paper and vegetable-based inks on our trademark thin-stock and finish. Printed by The United States Playing Card Company.",
     "images": [
@@ -11,6 +12,7 @@
   },
   {
     "name": "Messymod",
+    "page": "messymod",
     "price": 14.0,
     "description": "Messymod, short for Messy Modernism, is a minimal approach to graphic-design conceived by Los Angeles based creative team, TRÜF. Born from their love of geometry, pattern, white space, Bauhaus, Miró and perhaps a little too much caffeine.\n\nThe playing cards feature a completely custom design in trademark Messymod fashion, which can be described as minimal, modern, graphic, quirky, stylized, grotesque, delightful and just plain weird.\n\nSustainably-produced using FSC certified paper and vegetable-based inks on our trademark stock and finish. Suitable for all games requiring a standard deck.",
     "images": [
@@ -21,6 +23,7 @@
   },
   {
     "name": "Voyager",
+    "page": "voyager",
     "price": 10.0,
     "description": "If there was ever a time to pack it up and start the life you’ve always imagined, that time is now. Voyagers were inspired by the open road - with a spirit of adventure.\n\nWith breathtaking, intricate custom art - the Aces, Jokers, back design, and tuck case were designed from the ground up with nomadic elements from the open road.\n\nThe tuck case packaging is handcrafted using antique, letterpress machines dating back to the late 1930's. Printed on FSC-certified paper derived from sustainable forests, using vegetable based inks and starch based laminates. Illustrated by Joshua Noom in Fort Myers, Florida.",
     "images": [
@@ -31,6 +34,7 @@
   },
   {
     "name": "Modern Times",
+    "page": "modern-times",
     "price": 22.0,
     "description": "An explosion of colors. These super-ultra premium playing cards feature a psychedelic back design and unique numbering system for the face cards. Packaged in a letterpress-printed tuck boxes.\n\nThis exquisite device for games and cardistry was sustainably-produced using FSC certified paper and vegetable-based inks on our trademark thin-stock and finish. Printed by the United States Playing Card Co.",
     "images": [
@@ -41,6 +45,7 @@
   },
   {
     "name": "DKNG Blue",
+    "page": "dkng-blue",
     "price": 9.5,
     "description": "Created in partnership with California based creative studio, DKNG Playing Cards offer a fresh interpretation of the classic Bicycle Rider Back. The updated design is crisp and playful in both red and blue.\n\nFeaturing 54 custom illustrated playing cards printed by the US Playing Card Co. on our trademark thin-stock preferred by cardists. Housed inside a foil-stamped and embossed tuck case.",
     "images": [
@@ -51,6 +56,7 @@
   },
   {
     "name": "Lady Moon",
+    "page": "lady-moon",
     "price": 16.0,
     "description": "Lady Moon is the archetype of The Triple Goddess and is an expression of the divine feminine throughout the phases of her life. Discover her story in every part of these playing cards.\n\nBeautifully illustrated by Kelly Thorn in Brooklyn, New York, and produced with awe-inspiring detail by Art of Play. From their testament to early art deco motifs to their inspired mythology of a sacred trinity, Lady Moon Playing Cards are a marvel to behold.\n\nSustainably-produced using FSC certified paper and vegetable-based inks on our trademark stock and finish. Suitable for all games requiring a standard deck.",
     "images": [
@@ -61,6 +67,7 @@
   },
   {
     "name": "Seekers",
+    "page": "seekers",
     "price": 15.0,
     "description": "Seekers tells the story of two parallel worlds and the ongoing struggle for victory before our light is extinguished - represented by the torch on the Ace of Spades. Whether you seek adventure, fame, mastery, or love we encourage you to play fair, take risks and bet big for the winning hand is just an ante away.\n\nConceptualized and illustrated by graphic designer Billy French, each card was meticulously drawn with great detail. The court cards are completely custom yet reminiscent of traditional playing card design. We particularly like the juxtaposition of the undead red suits versus the living black suits. The back design features a familiar composition along with the Eye of Providence in the middle of two interlocked rings to symbolize our connection with a greater power.\n\nPrecisely printed by The United States Playing Card Company with our trademark thin stock, and a premium finish for superior handling. Packaged inside a letterpress-printed tuck case featuring gold metallic ink and white foil.",
     "images": [
@@ -71,6 +78,7 @@
   },
   {
     "name": "Spark",
+    "page": "spark",
     "price": 11.5,
     "description": "Produced in collaboration with Chicago based branding agency Soulsight we are thrilled to add The Soulsight Deck of Bright Ideas to our catalogue. Designed to \"spark\" ideation and conquer creative block. Use one of the 36 prompt cards featured in the deck as a catalyst to ignite your thinking and take your creativity to the next level!\n\nPrinted by the US Playing Card Co. on our trademark thin-stock preferred by professional card handlers. Packaged inside a letterpress-printed tuck box featuring foil stamped accents inside and out.",
     "images": [
@@ -81,6 +89,7 @@
   },
   {
     "name": "Henry & Sally",
+    "page": "henry-sally",
     "price": 20.0,
     "description": "Produced in collaboration with the world-famous Danish microbrewery, Mikkeller along with art director Keith Shore. The hop-sniffing, long-nosed lovers Henry & Sally have adorned Mikkeller beer labels since 2010 and now, ten years later, a deck of playing cards.\n\nThis Limited Edition deck features an original back design, two jokers, and thirteen custom face cards. Packaged inside a series of six unique collectors boxes, distributed at random.\n\nPrinted by the United States Playing Card Co.",
     "images": [
@@ -91,6 +100,7 @@
   },
   {
     "name": "Peau Doux",
+    "page": "peau-doux",
     "price": 17.5,
     "description": "In collaboration with Potter & Potter and Pitchford Entertainment, Media and Magic, we proudly present these limited edition playing cards to celebrate the life and career of Richard Valentine Pitchford (1895-1973). Under the stage name of Cardini, Pitchford's flawless sleight of hand, effortless charm and infectious humor garnered him the adulation of fellow magicians and international audiences.\n\nThis deck is a modern poker-sized replica of the special Peau Doux playing cards Cardini used in performance of his legendary nightclub act \"The Suave Deceiver.\" Special features include a vintage-inspired tuck box, letterpress-printed with silver metallic ink and embossed typography. Custom tax stamp, ace of spades, and matching jokers depicting a silhouette of Cardini illustrated by Wade J. Callender.\n\nPrinted by the United States Playing Card Company on our proprietary crushed stock.",
     "images": [
@@ -101,6 +111,7 @@
   },
   {
     "name": "Balance",
+    "page": "balance",
     "price": 15.0,
     "description": "Balance evolved from the deconstruction of a standard deck of cards. Their minimal design explores the interplay of tradition and style, weighing that which is familiar with a contemporary aesthetic.\n\nSustainably produced using FSC certified paper and vegetable-based inks on our trademark stock and finish. Suitable for all games requiring a standard deck.",
     "images": [
@@ -111,6 +122,7 @@
   },
   {
     "name": "Flux",
+    "page": "flux",
     "price": 19.5,
     "description": "Produced in collaboration with cardistry brand, Lotusinhand and printed in the USA by The United States Playing Card Company. FLUX playing cards is a deck that explores the boundary between static and motion. Its unique back design makes it the first deck that can be animated on the surface of the card. Adding an extra dimension of motion to your moves.\n\nThe deck also comes in a sleek and sturdy plastic box. That, on one side, elegantly showcases the animation of the back design every time you keep or remove the cards from the box. And on the other, has an image that while animated spells out the name of the deck, \"FLUX\". Each deck comes with 2 striped plastic cards (one vertical, one horizontal).",
     "images": [
@@ -121,6 +133,7 @@
   },
   {
     "name": "Drifters",
+    "page": "drifters",
     "price": 13.5,
     "description": "For the ramblers. For the gamblers. Whichever hand life deals you, Drifters playing cards remind us the journey is the destination.\n\nEvery shuffle and cut of the cards is a reminder to never settle, to chase a life of freedom. The wilderness holds the answers, like the cards held in your hands. For those who seek adventure upon the horizon, be sure to pack a deck of Drifters.\n\nFeaturing a custom letter-pressed tuck case and beautifully illustrated faces, Drifters was designed by Curtis Jenkins, illustrator of Monarchs playing cards, in collaboration with Dan and Dave. Proudly printed to the highest possible standards by the U.S. Playing Card Company.",
     "images": [
@@ -131,6 +144,7 @@
   },
   {
     "name": "Golden Sunrise",
+    "page": "golden-sunrise",
     "price": 14.0,
     "description": "The year is 1971 and summer break is in full swing. The family caravan is packed and we're heading west down Route 66 for vacation. Sally is buzzing with excitement and Grandpa can't stop talking about the flapjacks at Golden Sunrise Diner. Seven hours until we get there.\n\nInspired by American pop-culture, Golden Sunrise playing cards are guaranteed to bring a bit of nostalgia to game night. Designed by Antonio Martinez and Alba Zapata.\n\nPrinted by The United States Playing Card Company on our trademark thin-stock preferred by cardists. Packaged inside a vibrant letterpress printed tuck case and sealed with a vintage-style tax stamp.",
     "images": [
@@ -141,6 +155,7 @@
   },
   {
     "name": "Camp Cards",
+    "page": "camp-cards",
     "price": 18.5,
     "description": "Camp Cards is a pack of cards created to honor those who live adventurously. Produced in collaboration with the outdoor brand, Bradley Mountain, this fourth edition in a striking red colorway is packaged in an elegant new tuck box adorned with gold foil accents.\n\nDesigned by the incomparable 1924US, the details go beyond a call of the wild and feature custom-illustrated woodland animals for the picture cards that echo a motto to \"be brave or die.\"",
     "images": [
@@ -151,6 +166,7 @@
   },
   {
     "name": "Papercuts",
+    "page": "papercuts",
     "price": 11.0,
     "description": "A unique set of playing cards, crafted by hand, through the intricate art of paper cutting.\n\nHunched over a magnifying glass, craft knife in hand, Suzy Taylor is the epitome of patience and precision. Beneath her tiny blade is a blank sheet of paper, but in her imagination, a dizzyingly complex design is waiting to reveal itself. Days later, thousands of minuscule slivers of paper litter the tabletop and what is left is an intricate lace, extremely delicate and supremely beautiful. This is the time-honored tradition of paper cut art and these are new Papercut playing cards.",
     "images": [
