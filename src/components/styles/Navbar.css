@@ -1,0 +1,39 @@
+#navbar {
+  background: rgb(37,65,133);
+  background: linear-gradient(90deg, rgba(37,65,133,1) 0%, rgba(13,25,79,1) 100%);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  box-shadow: rgb(37,65,133, 0.2) 0px 1px 5px 3px;
+}
+
+.navbar-item {
+  text-decoration-line: none;
+  color: white;
+  margin: 0 20px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-item {
+    margin: 0 10px;
+  }
+}
+
+.navbar-item:hover {
+  color: rgb(255, 255, 255, 0.8);
+}
+
+#navbar-title {
+  position: relative;
+  bottom: 3px;
+  font-size: 36px;
+  font-family: 'Bodoni Moda';
+}
+
+#basket-link {
+  margin-left: auto;
+}
