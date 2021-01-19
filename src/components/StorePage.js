@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import StorePageItem from './StorePageItem';
-import playingCards from '../productsData.json';
+import productsData from '../productsData.json';
 import './styles/StorePage.css';
 
 const StorePage = () => {
   useEffect(() => {
-    const imageUrlsToCache = playingCards.map(data => [data.images[0], data.images[1]]).flat();
+    const imageUrlsToCache = productsData.map(data => [data.images[0], data.images[1]]).flat();
     cacheImages(imageUrlsToCache);
   }, [])
 
@@ -23,8 +23,9 @@ const StorePage = () => {
 
   return(
     <div id="store-page-container">
+      <h1>Products</h1>
       <div id="store-page-grid">
-        {playingCards.map(data => (
+        {productsData.map(data => (
           <StorePageItem key={data.name} itemData={data}/>
         ))}
       </div>

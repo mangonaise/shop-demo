@@ -53,6 +53,10 @@
   margin: 20px 0; 
 }
 
+#home-page-shop-button:hover {
+  background-color: rgb(77, 85, 119);
+}
+
 .red {
   color: rgb(206, 29, 29);
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import StorePage from './components/StorePage';
@@ -14,7 +15,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/products" component={StorePage}/>
-          <Route exact path="/products/:item" component={ItemPage}/>
+          <Route exact path="/products/:itemId">
+            <ItemPage />
+          </Route>
           <Route exact path="/checkout" component={CheckoutPage}/>
         </Switch>
       </Router>
