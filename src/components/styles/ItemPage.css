@@ -46,21 +46,22 @@
 }
 
 #item-page-image-selection button {
-  background-color: rgb(221, 221, 240);
+  background-color: rgb(231, 231, 241);
   color: transparent;
   padding: 0;
   width: 15px;
   height: 15px;
   margin: 0 10px;
+  border: solid 2px transparent;
   border-radius: 50%;
-  border: none;
   cursor: pointer;
 }
 
 #item-page-image-selection button:focus {
   outline: none;
+  border-color: rgb(38, 49, 78);
 }
 
 .selected-image-button {
-  background-color: rgb(128, 128, 163) !important;
+  background-color: rgb(126, 126, 155) !important;
 }
