@@ -23,7 +23,6 @@ const StorePage = () => {
 
   return(
     <div id="store-page-container">
-      <br></br>
       <div id="store-page-grid">
         {playingCards.map(data => (
           <StorePageItem key={data.name} itemData={data}/>
