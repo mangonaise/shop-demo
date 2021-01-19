@@ -4,14 +4,15 @@ import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
-const Navbar = () => {
+const Navbar = ({ cartItemCount }) => {
   return (
     <nav id="navbar">
       <Link to="/" id="navbar-title" className="navbar-item">jqk.</Link>
-      <NavLink to="/" className="navbar-item">Home</NavLink>
-      <NavLink to="/products" className="navbar-item">Store</NavLink>
-      <NavLink to="/checkout" id="basket-link" className="navbar-item">
+      <NavLink exact to="/" className="navbar-item">Home</NavLink>
+      <NavLink exact to="/products" className="navbar-item">Store</NavLink>
+      <NavLink exact to="/checkout" id="basket-link" className="navbar-item">
         <FontAwesomeIcon icon={faShoppingCart} size="lg"/>
+        <span id="cart-item-count">{cartItemCount}</span>
       </NavLink>
     </nav>
   )

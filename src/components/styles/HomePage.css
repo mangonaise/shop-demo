@@ -33,6 +33,7 @@
   max-width: 80vw;
   background-color: rgb(245, 245, 245);
   padding: 10px 20px;
+  border-radius: 3px;
 }
 
 #home-page-description h2 {
@@ -46,7 +47,7 @@
 #home-page-shop-button {
   font-size: 20px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 3px;
   background-color: rgb(13,25,79);
   padding: 10px 20px;
   color: white;

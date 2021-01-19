@@ -16,6 +16,12 @@
   text-decoration-line: none;
   color: white;
   margin: 0 20px;
+  
+  color: rgb(255, 255, 255, 0.55);
+}
+
+.navbar-item.active {
+  color: rgba(255, 255, 255);
   font-weight: 600;
 }
 
@@ -26,7 +32,7 @@
 }
 
 .navbar-item:hover {
-  color: rgb(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255, 0.3);
 }
 
 #navbar-title {
@@ -34,8 +40,13 @@
   bottom: 3px;
   font-size: 36px;
   font-family: 'Bodoni Moda';
+  color: white;
 }
 
 #basket-link {
   margin-left: auto;
+}
+
+#cart-item-count {
+  margin-left: 10px;
 }
