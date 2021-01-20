@@ -3,7 +3,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import StorePage from './components/StorePage';
 import ItemPage from './components/ItemPage';
-import CheckoutPage from './components/CheckoutPage';
+import CartPage from './components/CartPage';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -12,13 +12,18 @@ function App() {
 
   function handleAddToCart(itemId, quantity) {
     setCart(prevCart => {
-      return [
-        ...prevCart,
-        {
-          itemId,
-          quantity
+      let appendedCart = [...prevCart, { itemId, quantity }] 
+      let newCart = [];
+      for (let order of appendedCart) {
+        let orderWithExistingId = newCart.find(i => i.itemId === order.itemId);
+        if (orderWithExistingId) {
+          orderWithExistingId.quantity += order.quantity;
         }
-      ]
+        else {
+          newCart.push({itemId: order.itemId, quantity: order.quantity})
+        }
+      }
+      return newCart.filter(order => order.quantity !== 0);
     })
   }
 
@@ -36,7 +41,13 @@ function App() {
           <Route exact path="/products/:itemId">
             <ItemPage onAddToCart={handleAddToCart}/>
           </Route>
-          <Route exact path="/checkout" component={CheckoutPage}/>
+          <Route exact path="/checkout">
+            <CartPage 
+              cart={cart}
+              onIncrementOrder={id => handleAddToCart(id, 1)}
+              onDecrementOrder={id => handleAddToCart(id, -1)}
+            />
+          </Route>
         </Switch>
       </Router>
     </div>

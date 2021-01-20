@@ -1,0 +1,42 @@
+.cart-order-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-order  {
+  display: flex;
+  align-items: center;
+}
+
+.cart-order img {
+  width: 85px;
+  max-width: 15vw;
+  height: auto;
+}
+
+.cart-order-name {
+  font-weight: bold;
+}
+
+.cart-order-quantity {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.change-order-quantity-button {
+  background-color: white;
+  border: none;
+  font-size: 17px;
+  color: rgb(180, 198, 221);
+  cursor: pointer;
+}
+
+.change-order-quantity-button:hover {
+  color: rgb(73, 93, 129);
+}
+
+.change-order-quantity-button:focus {
+  outline: none;
+  color:rgb(47, 60, 83);
+}

@@ -12,7 +12,7 @@ const ItemPage = ({ onAddToCart }) => {
   const itemData = productsData.find(data => data.itemId === itemId);
 
   function changeQuantity(event) {
-    setQuantity(parseInt(event.target.value));
+    setQuantity(event.target.value);
   }
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const ItemPage = ({ onAddToCart }) => {
 
         <button 
           id="add-to-cart-button" 
-          onClick={() => { onAddToCart(itemData.itemId, quantity); setShowAddedMessage(true);}}
+          onClick={() => { onAddToCart(itemData.itemId, parseInt(quantity)); setShowAddedMessage(true);}}
         >
           Add to Cart
         </button>

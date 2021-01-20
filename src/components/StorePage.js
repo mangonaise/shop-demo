@@ -22,7 +22,7 @@ const StorePage = () => {
   }
 
   return(
-    <div id="store-page-container">
+    <div className="page-container">
       <h1>Products</h1>
       <div id="store-page-grid">
         {productsData.map(data => (
