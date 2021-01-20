@@ -20,8 +20,8 @@ const ItemImageCarousel = ({ images }) => {
     <div className="image-carousel">
       <div className="carousel-selection">
         <p>{`${currentImageIndex + 1} of ${images.length}`}</p>
-        <button onClick={showPreviousImage}>{"⯇"}</button>
-        <button onClick={showNextImage}>{"⯈"}</button>
+        <button onClick={showPreviousImage}>{"<"}</button>
+        <button onClick={showNextImage}>{">"}</button>
       </div>
       
       <img 

@@ -23,6 +23,7 @@
   border-radius: 3px;
   font-size: 18px;
   color: rgb(38, 49, 78);
+  font-family: inherit;
 }
 
 .carousel-selection button:hover {
