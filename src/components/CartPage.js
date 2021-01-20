@@ -23,6 +23,7 @@ const CartPage = (props) => {
         :
         <>
           <CartItemsDisplay {...props}/>
+          <br/>
           <div>Total: <strong>{`$${calculateTotal().toFixed(2)}`}</strong></div>
           <Link to="/checkout">
             <button className="important-button">

@@ -15,9 +15,9 @@
 
 .item-title {
   font-size: 17px;
-  font-family: "Work Sans";
   margin-bottom: -15px;
   transition: letter-spacing 0.2s;
+  color: rgb(59, 59, 59);
 }
 
 .item-image-container {
