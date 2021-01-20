@@ -10,7 +10,7 @@ const Navbar = ({ cartItemCount }) => {
       <Link to="/" id="navbar-title" className="navbar-item">jqk.</Link>
       <NavLink exact to="/" className="navbar-item">Home</NavLink>
       <NavLink exact to="/products" className="navbar-item">Store</NavLink>
-      <NavLink exact to="/checkout" id="basket-link" className="navbar-item">
+      <NavLink exact to="/cart" id="basket-link" className="navbar-item">
         <FontAwesomeIcon icon={faShoppingCart} size="lg"/>
         <span id="cart-item-count">{cartItemCount}</span>
       </NavLink>

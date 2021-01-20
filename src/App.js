@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import StorePage from './components/StorePage';
 import ItemPage from './components/ItemPage';
 import CartPage from './components/CartPage';
+import CheckoutPage from './components/CheckoutPage';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -41,13 +42,14 @@ function App() {
           <Route exact path="/products/:itemId">
             <ItemPage onAddToCart={handleAddToCart}/>
           </Route>
-          <Route exact path="/checkout">
+          <Route exact path="/cart">
             <CartPage 
               cart={cart}
               onIncrementOrder={id => handleAddToCart(id, 1)}
               onDecrementOrder={id => handleAddToCart(id, -1)}
             />
           </Route>
+          <Route exact path="/checkout" component={CheckoutPage}/>
         </Switch>
       </Router>
     </div>

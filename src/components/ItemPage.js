@@ -16,6 +16,10 @@ const ItemPage = ({ onAddToCart }) => {
   }
 
   useEffect(() => {
+    window.scrollTo(0,0);
+  }, [])
+
+  useEffect(() => {
     let timeout;
     if (showAddedMessage) {
       timeout = setTimeout(() => {
