@@ -11,6 +11,7 @@ const CartItemsDisplay = ({ cart, onIncrementOrder, onDecrementOrder }) => {
         let data = productsData.find(data => data.itemId === order.itemId);
         let name = data.name;
         let imageUrl = data.images[0];
+        let price = data.price;
 
         return (
         <div className="cart-order" key={index}>
@@ -27,8 +28,11 @@ const CartItemsDisplay = ({ cart, onIncrementOrder, onDecrementOrder }) => {
             <FontAwesomeIcon icon={faPlusCircle} style={{pointerEvents: 'none'}}/>
           </button>
           <img src={imageUrl} alt="order preview"/>
-          <span className="cart-order-name">{name}</span>
-          <span className="cart-order-quantity">x{order.quantity}</span>
+          <div className="cart-order-info">
+            <span className="cart-order-name">{name}</span>
+            <span className="cart-order-quantity">x{order.quantity}</span>
+            <p>{`$${(price * order.quantity).toFixed(2)}`}</p>
+          </div>
         </div>
         )
       })}

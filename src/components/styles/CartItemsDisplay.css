@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.cart-order-info p {
+  margin: 2px;
+}
+
 .cart-order  {
   display: flex;
   align-items: center;
