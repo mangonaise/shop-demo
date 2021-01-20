@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import StorePage from './components/StorePage';
@@ -37,7 +37,6 @@ function App() {
       <Router>
         <Navbar cartItemCount={calculateCartItemCount()}/>
         <Switch>
-          <Route exact path="/" component={HomePage}/>
           <Route exact path="/products" component={StorePage}/>
           <Route exact path="/products/:itemId">
             <ItemPage onAddToCart={handleAddToCart}/>
@@ -50,6 +49,8 @@ function App() {
             />
           </Route>
           <Route exact path="/checkout" component={CheckoutPage}/>
+
+          <Route component={HomePage}/>
         </Switch>
       </Router>
     </div>
